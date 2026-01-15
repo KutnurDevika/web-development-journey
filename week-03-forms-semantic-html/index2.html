@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Week 3 – Forms & Semantic HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Student Registration</h1>
+    <p>Week 3: Forms and Semantic HTML</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Register</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>Registration Form</h2>
+
+      <form>
+        <label>Full Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Password</label>
+        <input type="password" required>
+
+        <label>Department</label>
+        <select required>
+          <option value="">Select</option>
+          <option>CSE</option>
+          <option>ECE</option>
+          <option>EEE</option>
+        </select>
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Why Semantic HTML?</h2>
+      <p>
+        Semantic HTML helps structure web pages meaningfully,
+        improves accessibility, and makes code easier to understand.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Web Development Journey</p>
+  </footer>
+
+</body>
+</html>
